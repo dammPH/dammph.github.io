@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+}
+    .dad{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        border: solid 1px white;
+    }
+        header{
+            position: fixed;
+            top: 0px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            width: 99%;
+            background-color: rgba(0, 0, 0, 0.781);
+        }
+            header a img{
+                width: 130px;
+            }
+            header a{
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                font-family: 'Abril Fatface', cursive;
+                font-size: 20px;
+                margin-right: 25px;
+            }
+        main{
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding-top: 80px;
+            background-color: #000000;
+            font-family: 'Abril Fatface', cursive;
+        }
+            section{
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: center;
+                align-items: center;
+                width: 95%;
+            }
+                .grupo-1{
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    height: 400px;
+                    width: 100%;
+                    background-image: url(multimedia/otoño.jpg);
+                    background-size: cover;
+                    margin-bottom: 50px;
+                }
+                    h1{
+                        color: white;
+                        font-size: 50px;
+                        font-family: 'Abril Fatface', cursive;
+                    }
+                    .a1{
+                        background-color: rgba(255, 0, 0, 0.377);
+                        width: 100%;
+                        height: 150px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .grupo-1 div{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        /* background-color: rgba(255, 0, 0, 0.377); */
+                        width: 100%;
+                        height: 150px;
+                    }
+                   
+                    .grupo-1 a{
+                        text-decoration: none;
+                        color: white;
+                        background-color: rgba(255, 0, 0, 0.377);
+                        padding: 10px;
+                        border-radius: 0px 0px 10px 10px;
+                        font-family: 'Abril Fatface', cursive;
+                        font-size: 20px;
+                    }
+
+                .grupo-2{
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    height: 400px;
+                    width: 100%;
+                    background-image: url(multimedia/services.jpg);
+                    background-size: cover;
+                    margin-bottom: 50px;
+                    font-family: 'Abril Fatface', cursive;
+                }
+                    h2{
+                        color: white;
+                        font-size: 50px;
+                    }
+                    .a2{
+                        
+                        width: 100%;
+                        height: 150px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .grupo-2 div{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        /* background-color: #ee9b009f; */
+                        width: 100%;
+                        height: 150px;
+                    }
+                    .grupo-2 a{
+                        text-decoration: none;
+                        font-size: 30px;
+                        color: white;
+                        background-color: #ee9b009f;
+                        padding: 10px;
+                        border-radius: 0px 0px 10px 10px;
+                        margin-top: 0px;
+                    }
+
+                .grupo-3{
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    height: 400px;
+                    width: 100%;
+                    background-image: url(multimedia/aboutme.jpg);background-size: cover;
+                    margin-bottom: 50px;
+                    font-family: 'Abril Fatface', cursive;
+                }
+                    h3{
+                        color: white;
+                        font-size: 50px;
+                    }
+                    .a3{
+                        width: 100%;
+                        height: 150px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .grupo-3 div{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        /* background-color: #94d2bd73; */
+                        width: 100%;
+                        height: 150px;
+                    }
+                    .grupo-3 a{
+                        text-decoration: none;
+                        color: white;
+                        background-color: #94d2bd73;
+                        padding: 10px;
+                        border-radius: 0px 0px 10px 10px;
+                        font-size: 30px;
+                    }
+
+                .grupo-4{
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    height: 400px;
+                    width: 100%;
+                    background-image: url(multimedia/ig-1.jpg);
+                    background-size: cover;
+                    background-position: bottom;
+                    font-family: 'Abril Fatface', cursive;
+                }
+                .a4{
+                        
+                    width: 100%;
+                    height: 150px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                    .grupo-4 div{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        /* background-color: #06d69e6e; */
+                        height: 150px;
+                    }
+                    h4{
+                        color: white;
+                        font-size: 50px;
+
+                    }
+                   
+                    .grupo-4 a{
+                        text-decoration: none;
+                        color: white;
+                        background-color: #06d69e6e;
+                        padding: 10px;
+                        border-radius: 0px 0px 10px 10px;
+                        font-size: 30px;
+                    }
+        footer{
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                background-color: black;
+                color: white;
+                height: 200px;
+        }
+
+   @media screen and (min-width: 700px)
+   {
+    main{
+        width: 70%;
+    }
+    .dad{
+        background-color: black;
+    }
+   }
